@@ -1,6 +1,6 @@
 # VacationPlanner
 
-A network based app for iOS that allows users to search and pin points of interest on Google Maps and save them with customized notes and tags to create personal vacation itineraries. 
+Vacation planner is an iOS app that allows users to search and pin points of interest on a map and save them with customized notes and tags to create personal vacation itineraries. The app integrates with Google Maps and consumes Google Places and Foursquare REST APIs for POI reviews and details. The codebase follows MVC pattern and network requests are handled using Alamofire and SwiftyJSON for convenience. The UI is built using storyboards and autolayout. Persistance is handled by serializing the model using the Codable protocol.
 
 ## Getting Started
 
@@ -39,9 +39,9 @@ enum Keys {
 
 ### Backlog
 - Geofencing for added places
-- Tableview for added places with search functionality
 - Displaying photos of the places
 
 ### Requirements
-- Runs on iPhone6 and newer models
+- Runs on iOS 12.0 or above 
+- Optimized for screen sizes of iPhone 6 or newer 
 
